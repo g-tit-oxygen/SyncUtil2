@@ -19,30 +19,6 @@
       <step>
         <cmd><?oxy_comment_start author="g-tit-oxygen" timestamp="20160923T134936+0300" comment="2" id="czc_hxs_jx"?><?oxy_comment_start author="Gabe" timestamp="20160923T135936+0300" comment="2 for 2 right?" parentID="czc_hxs_jx" mid="5"?>Issue
           <?oxy_comment_end mid="5"?><?oxy_comment_end?>the following command:</cmd>
-        <choicetable frame="topbot" relcolwidth="1.0* 3.0*">
-          <chrow platform="linux osx">
-            <choption><?oxy_insert_start author="Curly and Brace" timestamp="20160926T094409+0300" type="surround"?><b><?oxy_insert_end?>Linux
-              </b>or Mac
-              OS&#xA0;X<?oxy_insert_start author="JJ" timestamp="20160926T104349+0300"?>Y<?oxy_insert_end?>&#xA0;</choption>
-            <chdesc><p>Some text
-                <?oxy_insert_start author="Curly and Brace" timestamp="20160926T094358+0300" type="split"?></p><p><?oxy_insert_end?>in
-                this P</p>
-              <cmdname>bin/ant</cmdname>
-              <option>-f</option>
-              <codeph><varname>build-script</varname>
-                <varname>target</varname></codeph>
-            </chdesc>
-          </chrow>
-          <chrow platform="windows">
-            <choption><?oxy_comment_start author="g-tit-oxygen" timestamp="20160923T134942+0300" comment="3"?>Windows<?oxy_comment_end?></choption>
-            <chdesc>
-              <cmdname>bin\ant</cmdname>
-              <option>-f</option>
-              <codeph><varname>build-script</varname>
-                <varname>target</varname></codeph>
-            </chdesc>
-          </chrow>
-        </choicetable>
         <info> where: <ul>
             <li><varname><?oxy_comment_start author="g-tit-oxygen" timestamp="20160923T134954+0300" comment="4 long sentence, something to search for" id="ery_3xs_jx" mid="11"?><?oxy_comment_start author="Gabe" timestamp="20160923T140008+0300" comment="You think that&apos;s long, try this buddy.
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." parentID="ery_3xs_jx"?>build<?oxy_comment_end?><?oxy_comment_end mid="11"?>-script</varname>
@@ -65,4 +41,3 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
     </steps>
   </taskbody>
 </task>
-<?oxy_options track_changes="on"?>
