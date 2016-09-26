@@ -3,9 +3,9 @@
 <!--This file is part of the DITA Open Toolkit project. See the accompanying LICENSE.md file for applicable licenses.-->
 
 <task id="runant" xml:lang="en">
-  <title><?oxy_comment_start author="g-tit-oxygen" timestamp="20160923T134930+0300" comment="1" id="jmk_gxs_jx" mid="2"?><?oxy_comment_start author="Gabe" timestamp="20160923T135923+0300" comment="What up fool" parentID="jmk_gxs_jx"?><?oxy_comment_start author="Curly and Brace" timestamp="20160923T140114+0300" comment="He&apos;s no fool, shut up!" parentID="jmk_gxs_jx" mid="1"?>Building
-    <?oxy_comment_end mid="1"?><?oxy_comment_end?><?oxy_comment_end mid="2"?>output using
-    <?oxy_comment_start author="Gabe" timestamp="20160923T135856+0300" comment="1" id="mkb_nxs_jx"?><?oxy_comment_start author="Curly and Brace" timestamp="20160923T140120+0300" comment="Yay, 1" parentID="mkb_nxs_jx" mid="4"?>Ant<?oxy_comment_end mid="4"?><?oxy_comment_end?></title>
+  <title><?oxy_comment_start author="g-tit-oxygen" timestamp="20160923T134930+0300" comment="1" id="jmk_gxs_jx" mid="1"?><?oxy_comment_start author="Gabe" timestamp="20160923T135923+0300" comment="What up fool" parentID="jmk_gxs_jx" mid="2"?><?oxy_comment_start author="Curly and Brace" timestamp="20160923T140114+0300" comment="He&apos;s no fool, shut up!" parentID="jmk_gxs_jx"?>Building
+    <?oxy_comment_end?><?oxy_comment_end mid="2"?><?oxy_comment_end mid="1"?>output <?oxy_delete author="Curly and Brace" timestamp="20160926T093225+0300" content="using"?>
+    <?oxy_comment_start author="Gabe" timestamp="20160923T135856+0300" comment="1" id="mkb_nxs_jx" mid="4"?><?oxy_comment_start author="Curly and Brace" timestamp="20160923T140120+0300" comment="Yay, 1" parentID="mkb_nxs_jx"?>Ant<?oxy_comment_end?><?oxy_comment_end mid="4"?></title>
   <shortdesc><?oxy_comment_start author="Gabe" timestamp="20160923T135907+0300" comment="2" id="cyr_nxs_jx"?><?oxy_comment_start author="Curly and Brace" timestamp="20160923T140131+0300" comment="2 for 2 right?" parentID="cyr_nxs_jx" mid="6"?>You
     <?oxy_comment_end mid="6"?><?oxy_comment_end?>can build output by using an Ant build script to
     provide the DITA-OT parameters.</shortdesc>
@@ -43,16 +43,19 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
               is name of the
               <?oxy_comment_start author="Curly and Brace" timestamp="20160923T140145+0300" comment="Got my own, personal, root comment."?>Ant
               build script<?oxy_comment_end?>.</li>
-            <li><varname>target</varname> is an optional switch that specifies the name of the Ant
-              target that you want to run. <p>If you do not specify a target, the
+            <li><varname>target</varname> is an optional switch that specifies the name
+              <?oxy_insert_start author="Curly and Brace" timestamp="20160926T093229+0300"?>and
+              origin <?oxy_insert_end?>of the Ant target that you want to run. <p>If you do not
+                specify a target, the
                 <?oxy_comment_start author="g-tit-oxygen" timestamp="20160923T135005+0300" comment="5 searchable as well" id="kpn_jxs_jx" flag="done" mid="14"?><?oxy_comment_start author="Gabe" timestamp="20160923T140018+0300" comment="I too am searchable" parentID="kpn_jxs_jx" flag="done"?>value
                 <?oxy_comment_end?><?oxy_comment_end mid="14"?>of the @default attribute for the
                 <?oxy_comment_start author="Gabe" timestamp="20160923T135914+0300" comment="3"?>Ant
                 <?oxy_comment_end?>project is
-                used<?oxy_comment_start author="Curly and Brace" timestamp="20160923T140336+0300" comment="And we are done here." id="ll4_vxs_jx" flag="done"?><?oxy_comment_start author="Curly and Brace" timestamp="20160923T140350+0300" comment="Done, indeed done!" parentID="ll4_vxs_jx" flag="done" mid="17"?>.<?oxy_comment_end mid="17"?><?oxy_comment_end?></p>
+                used<?oxy_comment_start author="Curly and Brace" timestamp="20160923T140336+0300" comment="And we are done here." id="ll4_vxs_jx" flag="done" mid="17"?><?oxy_comment_start author="Curly and Brace" timestamp="20160923T140350+0300" comment="Done, indeed done!" parentID="ll4_vxs_jx" flag="done"?>.<?oxy_comment_end?><?oxy_comment_end mid="17"?></p>
             </li>
           </ul></info>
       </step>
     </steps>
   </taskbody>
 </task>
+<?oxy_options track_changes="on"?>
