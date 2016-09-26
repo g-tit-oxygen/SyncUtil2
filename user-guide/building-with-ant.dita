@@ -19,8 +19,11 @@
           <?oxy_comment_end mid="5"?><?oxy_comment_end?>the following command:</cmd>
         <choicetable frame="topbot" relcolwidth="1.0* 3.0*">
           <chrow platform="linux osx">
-            <choption>Linux or Mac OS&#xA0;X&#xA0;</choption>
-            <chdesc>
+            <choption><?oxy_insert_start author="Curly and Brace" timestamp="20160926T094409+0300" type="surround"?><b><?oxy_insert_end?>Linux
+              </b>or Mac OS&#xA0;X&#xA0;</choption>
+            <chdesc><p>Some text
+                <?oxy_insert_start author="Curly and Brace" timestamp="20160926T094358+0300" type="split"?></p><p><?oxy_insert_end?>in
+                this P</p>
               <cmdname>bin/ant</cmdname>
               <option>-f</option>
               <codeph><varname>build-script</varname>
